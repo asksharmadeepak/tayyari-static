@@ -179,6 +179,21 @@ p {
   padding: 16px;
 }
 
+.screenshot-card {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.screenshot-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
 .prose h1 {
   margin-bottom: 8px;
 }
