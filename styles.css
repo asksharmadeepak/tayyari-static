@@ -232,6 +232,43 @@ p {
   font-weight: 600;
 }
 
+.table-wrap {
+  overflow-x: auto;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+th {
+  background: #f3f7f5;
+}
+
+td a,
+.prose a,
+.card a {
+  color: var(--primary);
+}
+
+.list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;

@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Update this to your final production domain once deployed
-Sitemap: https://tayyari.app/sitemap.xml
+Sitemap: https://tayyariapp.com/sitemap.xml
